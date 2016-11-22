@@ -1,0 +1,39 @@
+Repository for memory cards
+
+Entities:
+User
+Card
+CardSet
+
+
++User, composed by;
+-Name
+-Login (email)
+-rank:votes(up/down) average of all his CardSet ranks
+
++Card
+Each card will have two sides
+a)the subject to be memorized, the question, the key
+b)straight explanation, answer, value
+c)long explanation
+
++CardSet
+The User will be able to build a CardSet, the cardSet will have:
+a)A name, it must be clear to identify the subject to be memorized
+b)A list of cards
+c)The User creator id
+d)rank:votes counter(up/down)
+e)visibility, draft/public: after created every cardSet will be public to all users,
+f)Category
+g)tags
+
+Memorizer:
+-possibility to randomize 5 answers and the user must find the right one
+
+
+Features:
+Authentication: Oatuh facebook,google, linkedin
+badges?
+mobile app?
+
+http://www.primefaces.org/showcase/mobile/transitions.xhtml
