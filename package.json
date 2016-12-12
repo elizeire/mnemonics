@@ -62,6 +62,8 @@
     "protractor-jasmine2-screenshot-reporter": "0.3.2",
     "proxy-middleware": "0.15.0",
     "run-sequence": "1.2.2",
+    "generator-jhipster-gitlab-ci-build-status": "0.0.1",
+    "generator-jhipster-bootstrap-material-design": "3.5.1",
 
     "yargs": "5.0.0"
   },

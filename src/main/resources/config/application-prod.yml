@@ -22,7 +22,7 @@ spring:
         url: jdbc:mysql://localhost:3306/mnemonics?useUnicode=true&characterEncoding=utf8&useSSL=false
         name:
         username: root
-        password: "#Rct4zko31"
+        password: '#Rct4zko31'
         hikari:
             data-source-properties:
                 cachePrepStmts: true
@@ -79,7 +79,7 @@ jhipster:
     security:
         authentication:
             jwt:
-                secret: 80e456d49e7f4aa9191eacdee96d99c93a2b1341
+                secret: 19a3e7afc501ab653a4bf8c2f2f104a01767cdc8
                 # Token is valid 24 hours
                 tokenValidityInSeconds: 86400
     mail: # specific JHipster mail property, for standard properties see MailProperties

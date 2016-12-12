@@ -22,5 +22,9 @@
 
     <cache alias="com.forcecode.mnemonics.social.SocialUserConnection" uses-template="simple"/>
 
+    <cache alias="com.forcecode.mnemonics.domain.Rank" uses-template="simple"/>
+
+    <cache alias="com.forcecode.mnemonics.domain.Card" uses-template="simple"/>
+
     <!-- jhipster-needle-ehcache-add-entry -->
 </config>

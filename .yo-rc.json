@@ -16,7 +16,7 @@
     "messageBroker": false,
     "buildTool": "gradle",
     "enableSocialSignIn": true,
-    "jwtSecretKey": "80e456d49e7f4aa9191eacdee96d99c93a2b1341",
+    "jwtSecretKey": "19a3e7afc501ab653a4bf8c2f2f104a01767cdc8",
     "useSass": true,
     "applicationType": "monolith",
     "testFrameworks": [
@@ -25,6 +25,16 @@
       "protractor"
     ],
     "jhiPrefix": "jhi",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-gitlab-ci-build-status",
+        "version": "0.0.1"
+      },
+      {
+        "name": "generator-jhipster-bootstrap-material-design",
+        "version": "3.5.1"
+      }
+    ],
     "enableTranslation": true,
     "nativeLanguage": "en",
     "languages": [
